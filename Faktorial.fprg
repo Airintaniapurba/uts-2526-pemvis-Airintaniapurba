@@ -4,16 +4,16 @@
         <attribute name="name" value="Faktorial"/>
         <attribute name="authors" value="Airin Tania"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-17 04:41:04 PM"/>
+        <attribute name="saved" value="2025-10-17 08:10:05 PM"/>
         <attribute name="created" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDE6NTE6NTEgUE07MzM1Mw=="/>
-        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDQ6NDE6MDQgUE07ODszNDY4"/>
+        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDg6MTA6MDUgUE07OTszNDcw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="i, n, hasil" type="Integer" array="False" size=""/>
             <assign variable="hasil" expression="1"/>
-            <assign variable="i" expression="0"/>
+            <assign variable="i" expression="1"/>
             <output expression="&quot;Masukkan nilai n(0-15)&quot;" newline="True"/>
             <input variable="n"/>
             <while expression="i&lt;=n">
@@ -22,5 +22,11 @@
             </while>
             <output expression="&quot;Hasil Faktorial:&quot;&amp;hasil" newline="True"/>
         </body>
+    </function>
+    <function name="factorial" type="Integer" variable="">
+        <parameters>
+            <parameter name="fac" type="Integer" array="False"/>
+        </parameters>
+        <body/>
     </function>
 </flowgorithm>

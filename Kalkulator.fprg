@@ -4,14 +4,14 @@
         <attribute name="name" value="Kalkulator"/>
         <attribute name="authors" value="Airin Tania"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-17 06:42:37 PM"/>
+        <attribute name="saved" value="2025-10-17 07:52:59 PM"/>
         <attribute name="created" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDI6MTA6MDkgUE07MzM1Mg=="/>
-        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDY6NDI6MzcgUE07NTszNDc0"/>
+        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDc6NTI6NTkgUE07NjszNDgx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="tambah, kurang, bagi, kali, hasil" type="Integer" array="False" size=""/>
+            <declare name="tambah, kurang, bagi, kali" type="Integer" array="False" size=""/>
             <declare name="Pilihan" type="String" array="False" size=""/>
             <declare name="angka1, angka2" type="Integer" array="False" size=""/>
             <input variable="Pilihan"/>
@@ -19,36 +19,34 @@
                 <then>
                     <input variable="angka1"/>
                     <input variable="angka2"/>
-                    <assign variable="hasil" expression="angka1+angka2"/>
-                    <output expression="hasil" newline="True"/>
+                    <assign variable="tambah" expression="angka1+angka2"/>
+                    <output expression="tambah" newline="True"/>
                 </then>
                 <else>
                     <if expression="Pilihan=&quot;2&quot;">
                         <then>
                             <input variable="angka1"/>
                             <input variable="angka2"/>
-                            <assign variable="hasil" expression="angka1-angka2"/>
-                            <output expression="hasil" newline="True"/>
+                            <assign variable="kurang" expression="angka1-angka2"/>
+                            <output expression="kurang" newline="True"/>
                         </then>
                         <else>
                             <if expression="Pilihan=&quot;3&quot;">
                                 <then>
                                     <input variable="angka1"/>
                                     <input variable="angka2"/>
-                                    <assign variable="hasil" expression="angka1*angka2"/>
-                                    <output expression="hasil" newline="True"/>
+                                    <assign variable="kali" expression="angka1*angka2"/>
+                                    <output expression="kali" newline="True"/>
                                 </then>
                                 <else>
                                     <if expression="Pilihan=&quot;4&quot;">
                                         <then>
                                             <input variable="angka1"/>
                                             <input variable="angka2"/>
-                                            <assign variable="hasil" expression="angka1/angka2"/>
-                                            <output expression="hasil" newline="True"/>
+                                            <assign variable="bagi" expression="angka1/angka2"/>
+                                            <output expression="bagi" newline="True"/>
                                         </then>
-                                        <else>
-                                            <output expression="&quot;Tidak terdapat pilihan&quot;" newline="True"/>
-                                        </else>
+                                        <else/>
                                     </if>
                                 </else>
                             </if>
