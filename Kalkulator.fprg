@@ -4,9 +4,9 @@
         <attribute name="name" value="Kalkulator"/>
         <attribute name="authors" value="Airin Tania"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-17 04:27:35 PM"/>
+        <attribute name="saved" value="2025-10-17 06:42:37 PM"/>
         <attribute name="created" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDI6MTA6MDkgUE07MzM1Mg=="/>
-        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDQ6Mjc6MzUgUE07NDszNDcy"/>
+        <attribute name="edited" value="QWlyaW4gVGFuaWE7TEFQVE9QLTQyVkJSM0hWOzIwMjUtMTAtMTc7MDY6NDI6MzcgUE07NTszNDc0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -23,7 +23,7 @@
                     <output expression="hasil" newline="True"/>
                 </then>
                 <else>
-                    <if expression="pilihan=&quot;2&quot;">
+                    <if expression="Pilihan=&quot;2&quot;">
                         <then>
                             <input variable="angka1"/>
                             <input variable="angka2"/>
@@ -31,7 +31,7 @@
                             <output expression="hasil" newline="True"/>
                         </then>
                         <else>
-                            <if expression="pilihan=&quot;3&quot;">
+                            <if expression="Pilihan=&quot;3&quot;">
                                 <then>
                                     <input variable="angka1"/>
                                     <input variable="angka2"/>
@@ -39,7 +39,7 @@
                                     <output expression="hasil" newline="True"/>
                                 </then>
                                 <else>
-                                    <if expression="pilihan=&quot;4&quot;">
+                                    <if expression="Pilihan=&quot;4&quot;">
                                         <then>
                                             <input variable="angka1"/>
                                             <input variable="angka2"/>
